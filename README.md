@@ -40,7 +40,7 @@ The app runs in a loop until the user chooses to exit.
 
 ## 👤 Author
 
-Created by Kaelin
+Created by Kaelin.
 A Beginner Java Project
 
 
