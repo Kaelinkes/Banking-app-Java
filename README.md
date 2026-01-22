@@ -3,6 +3,7 @@
 ## 📌 Overview
 This is a simple **console-based banking application written in Java**.  
 It allows a user to interact with a mock bank account by viewing their balance, depositing money, withdrawing money, and exiting the program.
+This program is to show my learning fo methods and class variables(global variables).
 
 The app runs in a loop until the user chooses to exit.
 
@@ -29,11 +30,18 @@ The app runs in a loop until the user chooses to exit.
 - Data is not saved once the program exits
 - Designed for learning and practice purposes
 
+---
+
 ## Example of usage
 <img width="663" height="583" alt="image" src="https://github.com/user-attachments/assets/e9a9f1d6-750e-4a2d-ac7a-7ecd4724000f" />
 <img width="646" height="608" alt="image" src="https://github.com/user-attachments/assets/1f8010d8-274f-4f94-a761-9219cdc47218" />
 
+---
 
+## 👤 Author
+
+Created by Kaelin
+Beginner Java Project
 
 
 
