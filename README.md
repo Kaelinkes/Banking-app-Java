@@ -25,8 +25,6 @@ The app runs in a loop until the user chooses to exit.
 ---
 
 ## ⚠️ Notes / Limitations
-- The starting balance is hardcoded at $1000.00
-- No input validation (negative deposits or overdrafts are allowed)
 - Data is not saved once the program exits
 - Designed for learning and practice purposes
 
