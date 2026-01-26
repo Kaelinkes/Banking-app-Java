@@ -45,18 +45,29 @@ public class my_Banking_App {
         System.out.print("Enter the amount youd like to deposit: ");
         deposit = input.nextDouble();
 
-        total += deposit;
-
-        System.out.printf("$%.2f has been deposited!\nNew balance: $%.2f\n",deposit,total);
+        if (deposit > 0) {
+            total += deposit;
+            System.out.printf("$%.2f has been deposited!\nNew balance: $%.2f\n",deposit,total);
+        }else{
+            
+        }
+        
     }
     static void Withdraw(){
+        
         double withdrawal;
         System.out.print("Enter the amount youd like to withdraw: ");
         withdrawal = input.nextDouble();
 
-        total -= withdrawal;
+        if ((total-withdrawal) >=0) {
+            total -= withdrawal;
+            System.out.printf("$%.2f has been withdrawled!\nNew balance: $%.2f\n",withdrawal,total);
+        }else{
+            System.err.println("Insificaint funds! Withdrawl canceled, balance remains unchanged");
+        }
+        
 
-        System.out.printf("$%.2f has been withdrawled!\nNew balance: $%.2f\n",withdrawal,total);
+       
 
     }
     static void exit_app(){
